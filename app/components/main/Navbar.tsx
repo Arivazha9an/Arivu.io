@@ -27,9 +27,7 @@ const Navbar = () => {
             <a href="#projects" className="cursor-pointer hover:text-purple-400 transition-colors">
               Projects
             </a>
-            <Link href="/blog" className="cursor-pointer hover:text-purple-400 transition-colors">
-              Blog
-            </Link>
+
             <a href="#contact" className="cursor-pointer hover:text-purple-400 transition-colors">
               Contact
             </a>
@@ -96,13 +94,7 @@ const Navbar = () => {
           >
             Projects
           </a>
-          <Link
-            href="/blog"
-            onClick={() => setMenuOpen(false)}
-            className="text-gray-200 hover:text-purple-400 transition-colors text-lg"
-          >
-            Blog
-          </Link>
+
           <a
             href="#contact"
             onClick={() => setMenuOpen(false)}

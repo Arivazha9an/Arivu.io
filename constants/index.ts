@@ -423,7 +423,7 @@ export const projects = [
       'https://placehold.co/390x844/1C1C24/E06BFF?text=Restaurant+App',
     ],
     links: [
-      { label: 'Play Store', url: 'https://play.google.com/store/apps/details?id=com.aegiiz.yaizcustomer&pcampaignid=web_share', type: 'playStore' },
+      { label: 'Play Store', url: 'https://play.google.com/store/apps/developer?id=YAIZ', type: 'playStore' },
       { label: 'GitHub', url: 'https://github.com/Arivazha9an', type: 'github' },
     ],
   },
